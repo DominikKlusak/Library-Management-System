@@ -1,3 +1,7 @@
+using Microsoft.TeamFoundation.Dashboards.WebApi;
+using System.Data;
+using System.Data.SqlClient;
+
 namespace Library_Management_System
 {
     public partial class Form1 : Form
@@ -35,9 +39,29 @@ namespace Library_Management_System
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = "data source = DOMINIK ; database = library;integrated security=True";
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
 
+            cmd.CommandText = "select * from loginTable where username = '"+txtUsername.Text+"' and pass = '"+txtPassword.Text + "' ";
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+
+            if (ds.Tables[0].Rows.Count != 0)
+
+            {
+                this.Hide();
+                Dashboard dsa = new Dashboard();
+                dsa.Show();
+            }
+            else
+            {
+                MessageBox.Show("Wrong username or Password","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
         }
     }
 }
