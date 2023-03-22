@@ -77,15 +77,16 @@
             this.dodajNowąKsiążkęToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dodajNowąKsiążkęToolStripMenuItem.Image")));
             this.dodajNowąKsiążkęToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.dodajNowąKsiążkęToolStripMenuItem.Name = "dodajNowąKsiążkęToolStripMenuItem";
-            this.dodajNowąKsiążkęToolStripMenuItem.Size = new System.Drawing.Size(222, 56);
+            this.dodajNowąKsiążkęToolStripMenuItem.Size = new System.Drawing.Size(254, 56);
             this.dodajNowąKsiążkęToolStripMenuItem.Text = "Add New Book";
+            this.dodajNowąKsiążkęToolStripMenuItem.Click += new System.EventHandler(this.dodajNowąKsiążkęToolStripMenuItem_Click);
             // 
             // viewBooksToolStripMenuItem
             // 
             this.viewBooksToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("viewBooksToolStripMenuItem.Image")));
             this.viewBooksToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.viewBooksToolStripMenuItem.Name = "viewBooksToolStripMenuItem";
-            this.viewBooksToolStripMenuItem.Size = new System.Drawing.Size(222, 56);
+            this.viewBooksToolStripMenuItem.Size = new System.Drawing.Size(254, 56);
             this.viewBooksToolStripMenuItem.Text = "View Books";
             // 
             // studentToolStripMenuItem

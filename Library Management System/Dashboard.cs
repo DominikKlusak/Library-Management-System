@@ -22,5 +22,11 @@ namespace Library_Management_System
             if (MessageBox.Show("Are you sure you want to Exit?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             Application.Exit();
         }
+
+        private void dodajNowąKsiążkęToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddBooks abs = new AddBooks();
+            abs.Show();
+        }
     }
 }

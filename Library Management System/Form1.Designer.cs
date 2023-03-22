@@ -57,7 +57,7 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.BackColor = System.Drawing.Color.MidnightBlue;
+            this.txtUsername.BackColor = System.Drawing.Color.DarkOrange;
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtUsername.ForeColor = System.Drawing.SystemColors.Window;
@@ -71,7 +71,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.BackColor = System.Drawing.Color.MidnightBlue;
+            this.txtPassword.BackColor = System.Drawing.Color.DarkOrange;
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtPassword.ForeColor = System.Drawing.SystemColors.Window;
@@ -124,7 +124,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Silver;
+            this.btnLogin.BackColor = System.Drawing.Color.PeachPuff;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLogin.Location = new System.Drawing.Point(133, 393);
@@ -137,7 +137,7 @@
             // 
             // btnSign
             // 
-            this.btnSign.BackColor = System.Drawing.Color.Silver;
+            this.btnSign.BackColor = System.Drawing.Color.PeachPuff;
             this.btnSign.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSign.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSign.Location = new System.Drawing.Point(133, 444);
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(432, 553);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSign);
